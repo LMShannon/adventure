@@ -1,0 +1,21 @@
+===COMPILING===
+You'll need to install GHC, the glorious Glasgow Haskell Compiler.  Then just type:
+% make
+
+That's it!  The output executable will be ./adventure
+
+===EDITING===
+Everything's in a git repo, but you know that already if you're reading this :)
+Hints:
+git help
+git status
+git commit -m 'This is a FANTASTIC improvement'
+
+The source files are in src/...  Locations.hs has most of the game data.  It's also
+possible to do a fair amount with Items.hs, though you'll need to either code up
+new options at various locations to _use_ the items, or add to the standard options
+in StandardOptions.hs
+
+The game engine itself is implemented in Engine.hs, and the main function is in
+adventure.hs
+
